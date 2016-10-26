@@ -30,6 +30,7 @@ type Email struct {
 type Language struct {
 	gorm.Model
 	Name string
+	User []User `gorm:"many2many:user_languages;"`
 }
 
 type TestTable struct {
@@ -49,6 +50,7 @@ type MyModel struct {
 
 func main() {
 	automigrate()
+	m2mInverse()
 	//o2o()
 	//o2m()
 	//m2m()
@@ -166,6 +168,23 @@ func m2m() {
 		fmt.Println("=====> ",u.ID)
 		for _, e := range u.Language {
 			fmt.Println(e.Name)
+		}
+	}
+
+	fmt.Println("xxx")
+}
+
+func m2mInverse() {
+	db, _ := gorm.Open("mysql", "root:@/testgorm?parseTime=true")
+	defer db.Close()
+
+	langs := []Language{}
+	db.Debug().Preload("User").Find(&langs)
+
+	for _, l := range langs {
+		fmt.Println("=====> ",l.ID)
+		for _, u := range l.User {
+			fmt.Println(u.ID)
 		}
 	}
 

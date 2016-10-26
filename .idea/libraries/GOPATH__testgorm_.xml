@@ -1,29 +1,33 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;testgorm&gt;">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../testBeego" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../beegorm" />
-      <root url="file://$PROJECT_DIR$/../testIris" />
       <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../ex1" />
-      <root url="file://$PROJECT_DIR$/../goResty" />
-      <root url="file://$PROJECT_DIR$/../xxx" />
-      <root url="file://$PROJECT_DIR$/../geeborm" />
+      <root url="file://$PROJECT_DIR$/../beegoOrm" />
+      <root url="file://$PROJECT_DIR$/../hot" />
+      <root url="file://$PROJECT_DIR$/../models" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../campaign" />
+      <root url="file://$PROJECT_DIR$/../controllers" />
+      <root url="file://$PROJECT_DIR$/../hot2" />
+      <root url="file://$PROJECT_DIR$/../routers" />
+      <root url="file://$PROJECT_DIR$/../gonewrelic" />
+      <root url="file://$PROJECT_DIR$/../test" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="file://$PROJECT_DIR$/../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../testBeego" />
-      <root url="file://$PROJECT_DIR$/../golang.org" />
-      <root url="file://$PROJECT_DIR$/../beegorm" />
-      <root url="file://$PROJECT_DIR$/../testIris" />
       <root url="file://$PROJECT_DIR$/../github.com" />
-      <root url="file://$PROJECT_DIR$/../ex1" />
-      <root url="file://$PROJECT_DIR$/../goResty" />
-      <root url="file://$PROJECT_DIR$/../xxx" />
-      <root url="file://$PROJECT_DIR$/../geeborm" />
+      <root url="file://$PROJECT_DIR$/../beegoOrm" />
+      <root url="file://$PROJECT_DIR$/../hot" />
+      <root url="file://$PROJECT_DIR$/../models" />
+      <root url="file://$PROJECT_DIR$/../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../campaign" />
+      <root url="file://$PROJECT_DIR$/../controllers" />
+      <root url="file://$PROJECT_DIR$/../hot2" />
+      <root url="file://$PROJECT_DIR$/../routers" />
+      <root url="file://$PROJECT_DIR$/../gonewrelic" />
+      <root url="file://$PROJECT_DIR$/../test" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
